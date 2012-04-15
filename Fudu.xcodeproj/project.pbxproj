@@ -38,6 +38,7 @@
 		29E01D13153B2EF800F23BC6 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E01D12153B2EF800F23BC6 /* MainViewController.m */; };
 		29E01D15153B2EF800F23BC6 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29E01D14153B2EF800F23BC6 /* MainViewController.xib */; };
 		29E01D19153B2EF800F23BC6 /* verify.sh in Resources */ = {isa = PBXBuildFile; fileRef = 29E01D18153B2EF800F23BC6 /* verify.sh */; };
+		29E01D2F153B315200F23BC6 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 29E01D2E153B315200F23BC6 /* www */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,10 +56,10 @@
 		29E01CDB153B2EF800F23BC6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		29E01CDD153B2EF800F23BC6 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		29E01CDF153B2EF800F23BC6 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		29E01CE3153B2EF800F23BC6 /* Fudu-Info.plist */ = {isa = PBXFileReference; path = "Fudu-Info.plist"; sourceTree = "<group>"; };
+		29E01CE3153B2EF800F23BC6 /* Fudu-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fudu-Info.plist"; sourceTree = "<group>"; };
 		29E01CE5153B2EF800F23BC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		29E01CE7153B2EF800F23BC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		29E01CE9153B2EF800F23BC6 /* Fudu-Prefix.pch */ = {isa = PBXFileReference; path = "Fudu-Prefix.pch"; sourceTree = "<group>"; };
+		29E01CE9153B2EF800F23BC6 /* Fudu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fudu-Prefix.pch"; sourceTree = "<group>"; };
 		29E01CEA153B2EF800F23BC6 /* Cordova.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cordova.framework; path = /Users/Shared/Cordova/Frameworks/Cordova.framework; sourceTree = "<absolute>"; };
 		29E01CEF153B2EF800F23BC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		29E01CF3153B2EF800F23BC6 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -71,13 +72,14 @@
 		29E01D07153B2EF800F23BC6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/splash/Default@2x.png"; sourceTree = "<group>"; };
 		29E01D09153B2EF800F23BC6 /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
 		29E01D0B153B2EF800F23BC6 /* Cordova.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Cordova.plist; sourceTree = "<group>"; };
-		29E01D0E153B2EF800F23BC6 /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		29E01D0E153B2EF800F23BC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		29E01D0F153B2EF800F23BC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		29E01D11153B2EF800F23BC6 /* MainViewController.h */ = {isa = PBXFileReference; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
+		29E01D11153B2EF800F23BC6 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
 		29E01D12153B2EF800F23BC6 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
 		29E01D14153B2EF800F23BC6 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = Classes/MainViewController.xib; sourceTree = "<group>"; };
-		29E01D17153B2EF800F23BC6 /* README */ = {isa = PBXFileReference; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		29E01D17153B2EF800F23BC6 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
 		29E01D18153B2EF800F23BC6 /* verify.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = verify.sh; sourceTree = "<group>"; };
+		29E01D2E153B315200F23BC6 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		29E01CB5153B2EF800F23BC6 = {
 			isa = PBXGroup;
 			children = (
+				29E01D2E153B315200F23BC6 /* www */,
 				29E01CE1153B2EF800F23BC6 /* Fudu */,
 				29E01CC6153B2EF800F23BC6 /* Frameworks */,
 				29E01CC4153B2EF800F23BC6 /* Products */,
@@ -329,6 +332,7 @@
 				29E01D0C153B2EF800F23BC6 /* Cordova.plist in Resources */,
 				29E01D15153B2EF800F23BC6 /* MainViewController.xib in Resources */,
 				29E01D19153B2EF800F23BC6 /* verify.sh in Resources */,
+				29E01D2F153B315200F23BC6 /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
